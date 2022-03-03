@@ -1,6 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { first } from 'rxjs/operators';
 import { Movie, MovieCredits, MovieImages, MovieVideo } from 'src/app/models/movie';
 import { MoviesService } from 'src/app/services/movies.service';
 import { IMAGES_SIZES } from '../../constants/images-sizes';
