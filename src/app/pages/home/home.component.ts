@@ -30,6 +30,8 @@ export class HomeComponent implements OnInit {
     this.moviesService.getTvs('popular').subscribe((tvShows) => {
       this.popularTvShows = tvShows;
     });
+
+    this.alertConfirmation()
   }
 
   tinyAlert() {
