@@ -1,6 +1,6 @@
 # MoviesApp
 
-Angular Training Project Deployed in Firebase, check the following link [Movies-App] (https://movie-imdb-site.web.app/) 
+Angular Training Project Deployed in Firebase, check the following link [Movies-App](https://movie-imdb-site.web.app/) 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
