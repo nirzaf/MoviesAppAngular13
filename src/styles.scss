@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+@import './styles/init-css';
+@import './styles/colors';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import '~primeflex/primeflex.css';
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/arya-orange/theme.css';
+@import '~primeng/resources/primeng.min.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: $white;
+  background-color: $bgColor;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+.app-icon {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.container {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}

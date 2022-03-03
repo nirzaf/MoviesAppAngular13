@@ -1,0 +1,43 @@
+@import '../../../styles/colors';
+
+.item {
+  position: relative;
+  display: block;
+  min-height: 425px;
+  border-radius: 5px;
+  background-color: $bgColorLight;
+  border: 1px solid $lightGray;
+
+  &-image {
+    img {
+      width: 100%;
+      border-radius: 5px;
+      height: 375px;
+      object-fit: cover;
+    }
+  }
+
+  &-rating {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    left: 10px;
+    background-color: $bgColorLight;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+    .app-icon {
+      margin-right: 5px;
+      color: #d4af37;
+    }
+  }
+
+  &-title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 0.5rem;
+    height: 30px;
+  }
+}
